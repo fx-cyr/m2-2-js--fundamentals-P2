@@ -10,6 +10,8 @@
 // Edit only the code between the lines (below)
 // -----------------------------------------------------------------
 function arrOFNames(string) {
+  let stringArray = string.split(", ");
+  return stringArray
   // complete the function
 }
 // -----------------------------------------------------------------

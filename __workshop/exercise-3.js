@@ -9,6 +9,8 @@
 // Edit only the code between the lines (below)
 // -----------------------------------------------------------------
 function getMax(num1, num2) {
+
+  return num1 > num2 ? num1 : num2
   // code here
 }
 // -----------------------------------------------------------------

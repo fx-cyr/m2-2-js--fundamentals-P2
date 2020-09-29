@@ -7,6 +7,7 @@
 // -----------------------------------------------------------------
 function itemIsPresent(array, item) {
   // code here
+  return array.includes(item)
 }
 // -----------------------------------------------------------------
 // Edit only the code between the lines (above)
@@ -23,6 +24,8 @@ const myArray = [
   "program",
   "funky",
 ];
+
+
 
 // Call the function to test your code.
 console.log(itemIsPresent(myArray, "funky")); // true

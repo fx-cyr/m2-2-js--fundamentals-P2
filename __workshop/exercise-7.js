@@ -8,6 +8,8 @@
 // Edit only the code between the lines (below)
 // -----------------------------------------------------------------
 function keepLong(list) {
+  return list.filter(function (word) {
+    return word.length > 5 });
   // list is an array of strings
 }
 // -----------------------------------------------------------------

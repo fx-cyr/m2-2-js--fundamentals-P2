@@ -8,6 +8,8 @@
 // Edit only the code between the lines (below)
 // -----------------------------------------------------------------
 function removeEvens(list) {
+  return list.filter(function (number) {
+    return number % 2 !== 0; });
   // list is an array of numbers
 }
 // -----------------------------------------------------------------
